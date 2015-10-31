@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--用于mainActivity的注册-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/register_fragment_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:hint="账号" />
+
+
+        <EditText
+            android:id="@+id/register_fragment_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:password="true"
+            android:hint="密码" />
+
+        <TextView
+            android:id="@+id/register_fragment_alertText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text=""
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/register_fragment_submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:layout_gravity="right"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
